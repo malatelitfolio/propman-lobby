@@ -603,6 +603,28 @@
     }
 
     @media (max-width: 600px) {
+        .nav-container {
+            flex-wrap: nowrap;
+            gap: 8px;
+        }
+        .brand {
+            min-width: 0;
+            flex-shrink: 1;
+        }
+        .brand h1 {
+            font-size: 1rem;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            min-width: 0;
+        }
+        .brand-logo {
+            width: 8px;
+        }
+        .header-controls {
+            flex-shrink: 0;
+            gap: 8px;
+        }
         .header-controls .occupancy-mini-box {
             display: none;
         }
@@ -3976,7 +3998,7 @@
                 <ol style="margin: 0 0 12px; padding-left: 20px; font-size: 0.88rem; line-height: 1.5;">
                     <li style="margin-bottom: 6px;"><strong>Food</strong> is <strong>NOT</strong> allowed in the office; however, <strong>drinks</strong> such as water and colored drinks are allowed, but they must be placed inside a <strong>vacuum-sealed container</strong>.</li>
                     <li style="margin-bottom: 6px;"><strong>Food and drinks</strong> are <strong>NOT</strong> allowed inside the <strong>editing bay</strong>.</li>
-                    <li style="margin-bottom: 6px;"><strong>No rubbish or damp objects</strong> will be left inside the office without proper disposal (<strong>#NoMold2026</strong>).</li>
+                    <li style="margin-bottom: 6px;"><strong>No rubbish or damp objects</strong> will be left inside the office without proper disposal (<strong>#NoMold2025</strong>).</li>
                     <li style="margin-bottom: 6px;">Minimize <strong>noise</strong> in the student media house.</li>
                 </ol>
 
@@ -4028,7 +4050,7 @@
                 <div style="background: rgba(var(--status-out-rgb), 0.06); border: 1px solid rgba(var(--status-out-rgb), 0.15); padding: 10px 14px; border-radius: 8px; margin-bottom: 12px; font-size: 0.82rem;">
                     <div style="display: flex; align-items: flex-start; gap: 8px;">
                         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--status-out)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0; margin-top: 1px;"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
-                        <span><strong>Onsite clock-in is closed</strong> outside <strong>7 AM â€“ 10 PM on Mondays to Saturdays</strong> and all day on <strong>Sundays</strong> (campus/office closed). During those times you can still clock in <strong>Online</strong> anytime. If you're an EB and absolutely need to, you can override an onsite clock-in with a confirmation prompt.</span>
+                        <span><strong>Onsite clock-in is closed</strong> outside <strong>7 AM — 10 PM on Mondays to Saturdays</strong> and all day on <strong>Sundays</strong> (campus/office closed). During those times you can still clock in <strong>Online</strong> anytime. If you're an EB and absolutely need to, you can override an onsite clock-in with a confirmation prompt.</span>
                     </div>
                 </div>
 
