@@ -241,12 +241,13 @@
     }
 
     .brand-logo {
+        display: block;
         width: 34px;
         height: 34px;
         border-radius: 8px;
-        background: var(--bg-canvas);
-        border: 1px dashed var(--border-soft);
+        overflow: hidden;
         flex-shrink: 0;
+        object-fit: cover;
     }
 
     .brand h1 {
@@ -3681,7 +3682,7 @@
             <div class="brand">
                 <!-- LOGO PLACEHOLDER: put the org logo here later, e.g. -->
                 <!-- <img class="brand-logo" src="YOUR_LOGO_URL" alt="PropMan Lobby logo"> -->
-                <div class="brand-logo" aria-hidden="true"></div>
+                <img class="brand-logo" src="logo.png" alt="PropMan Logo" aria-hidden="true">
                 <h1>PropMan Lobby</h1>
             </div>
             
